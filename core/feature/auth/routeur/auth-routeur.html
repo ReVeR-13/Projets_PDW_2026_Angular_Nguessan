@@ -1,0 +1,26 @@
+<div class="div-main-signin " [class.connected]="authService.apiResponse$().result">
+
+    <header class="sign-in-top">
+
+        <div class="logo">
+            {{logo}}
+        </div>
+
+        <div class="div-title">
+            <p class="info">{{info}}</p>
+            <h1 class="title">{{title}}</h1>
+        </div>
+
+    </header>
+
+    <div class="mid-outlet-sign-in "[class.close]="isFlipped">
+        <router-outlet name="signin"/>
+    </div>
+
+    <div class="mid-outlet-sign-up"[class.open]="isFlipped">
+        <router-outlet name="signup" />
+    </div>
+
+    <div class="div-animation" [class.ouvert]="isFlipped"></div>
+
+</div>
