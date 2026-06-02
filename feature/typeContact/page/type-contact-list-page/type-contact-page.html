@@ -1,0 +1,18 @@
+<router-outlet />
+<h1 class="title">{{title}}</h1>
+<div class="div-principale">
+
+    <div class="div-counter">
+        <p class="count">{{count}} </p>
+        <div class="div-btn">
+            <button type="button" class="btn btn_plus" (click)= plus()>+</button>
+            <button type="button" class="btn btn_moin" (click)= moin()>-</button>
+        </div>
+    </div>
+    
+    <input class="inputtype" type="text" #myType (input)="onChange(myType.value)"><br>
+    <span>{{value}}</span><br>
+    
+    <p>type-contact-page works!</p>
+</div>
+

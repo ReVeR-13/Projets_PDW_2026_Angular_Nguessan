@@ -1,0 +1,118 @@
+.dashbord-home{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-dashbord{
+    width: 100% ;
+    height: 15%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    //background-color: var(--color-vert-doux);
+}
+
+.div-header-dashbord-title{
+    width: 60%;
+    height: 100%;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+app-dashbord-home-page{
+    height: 100%
+}
+
+.div-dashbord-logo{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dashbord-logo{
+    width:100%;
+    height:100%;
+}
+
+.dashbord-logo-path{
+    stroke-width: 5px;
+    stroke: var(--color-vert-milo);
+    fill: var(--color-blanc);
+}
+
+.dashbord-title{
+    width: 50%;
+    height: 100%;
+    font-size: 5rem;
+    color: var(--color-vert-milo);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.router-outlet{
+    height: 100%;
+}
+
+.section-dashbord-home{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.dashbord-home-menu{
+    width: 100%;
+    height: 35%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 16px;
+
+}
+
+.dashbord-home-nav{
+    width: 100%;
+    height: max-content;
+    padding: 25px 10px;
+
+}
+
+.dashbord-home-contenu{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}

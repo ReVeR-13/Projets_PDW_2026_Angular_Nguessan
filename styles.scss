@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --conteneur-principal-size: 1000px;
+    --comb-size: 120px;
+
+    --color-vert-doux: #DCF5D6;
+    --color-vert-moyen: #77C694;
+    --color-vert-milo: #A6B4A5;
+    --color-orange-chaleur: #ffb03a;
+    --color-bleu-accent: #2196f3;
+    --color-blanc: #fffffB;
+    --color-gris-clair: #F5F5F5;
+    --color-gris-foncer: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Calibri Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    height: auto;
+    font-size: 1.2rem;
+    margin: 0;
+    color: var(--color-gris-foncer);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.conteneur {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: calc(50% - var(--conteneur-principal-size)/2);
+    padding-right: calc(50% - var(--conteneur-principal-size)/2);
+}
+
+.style-comb {
+    clip-path: polygon(
+            25% 6%,
+            75% 6%,
+            100% 50%,
+            75% 94%,
+            25% 94%,
+            0% 50%,
+        );
+}

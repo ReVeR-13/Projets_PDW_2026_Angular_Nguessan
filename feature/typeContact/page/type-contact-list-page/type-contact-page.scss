@@ -1,0 +1,38 @@
+
+
+.div-principale{
+    width: 90%;
+    height: max-content;
+    padding: 10px;
+    border: 1px solid seagreen;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-counter{
+    width: 90%;
+    height: fit-content;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.count{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border: 1px solid red;
+}
